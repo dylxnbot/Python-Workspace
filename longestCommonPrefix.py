@@ -22,10 +22,9 @@ class longestCommonPrefix:
                                                                         # matching number of characters in the first pair of words to the second
                 
         common_prefix = strs[0][:min_common_prefix]
-        #print(common_prefix)
         return common_prefix
                 
             
 test_list = ["flower","flow","flight"]
 test = longestCommonPrefix()
-test.longestCommonPrefix(test_list)
+print(test.longestCommonPrefix(test_list))

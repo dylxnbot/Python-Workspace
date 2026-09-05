@@ -32,9 +32,8 @@ class romanToInteger:
             
             prev_num = curr_num
             
-        print(total)
         return total
         
         
 test = romanToInteger()
-test.romanToInt("XIV")
+print(test.romanToInt("XIV"))
